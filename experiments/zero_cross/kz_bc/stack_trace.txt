@@ -1,0 +1,174 @@
+C:\Users\Aleksey\.jdks\corretto-20.0.2.1\bin\java.exe -XX:TieredStopAtLevel=1 -Dspring.output.ansi.enabled=always -Dcom.sun.management.jmxremote -Dspring.jmx.enabled=true -Dspring.liveBeansView.mbeanDomain -Dspring.application.admin.enabled=true "-Dmanagement.endpoints.jmx.exposure.include=*" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.2\lib\idea_rt.jar=65124:C:\Program Files\JetBrains\IntelliJ IDEA 2023.2\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\Aleksey\Desktop\Table\Work\BRICS\rz\protection\target\classes;C:\Users\Aleksey\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.3.4\spring-boot-starter-web-3.3.4.jar;C:\Users\Aleksey\.m2\repository\org\springframework\boot\spring-boot-starter\3.3.4\spring-boot-starter-3.3.4.jar;C:\Users\Aleksey\.m2\repository\org\springframework\boot\spring-boot\3.3.4\spring-boot-3.3.4.jar;C:\Users\Aleksey\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.3.4\spring-boot-autoconfigure-3.3.4.jar;C:\Users\Aleksey\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.3.4\spring-boot-starter-logging-3.3.4.jar;C:\Users\Aleksey\.m2\repository\ch\qos\logback\logback-classic\1.5.8\logback-classic-1.5.8.jar;C:\Users\Aleksey\.m2\repository\ch\qos\logback\logback-core\1.5.8\logback-core-1.5.8.jar;C:\Users\Aleksey\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.23.1\log4j-to-slf4j-2.23.1.jar;C:\Users\Aleksey\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\Aleksey\.m2\repository\org\slf4j\jul-to-slf4j\2.0.16\jul-to-slf4j-2.0.16.jar;C:\Users\Aleksey\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\Aleksey\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\Aleksey\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.3.4\spring-boot-starter-json-3.3.4.jar;C:\Users\Aleksey\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.17.2\jackson-datatype-jdk8-2.17.2.jar;C:\Users\Aleksey\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.17.2\jackson-datatype-jsr310-2.17.2.jar;C:\Users\Aleksey\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.17.2\jackson-module-parameter-names-2.17.2.jar;C:\Users\Aleksey\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.3.4\spring-boot-starter-tomcat-3.3.4.jar;C:\Users\Aleksey\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.30\tomcat-embed-core-10.1.30.jar;C:\Users\Aleksey\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.30\tomcat-embed-el-10.1.30.jar;C:\Users\Aleksey\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.30\tomcat-embed-websocket-10.1.30.jar;C:\Users\Aleksey\.m2\repository\org\springframework\spring-web\6.1.13\spring-web-6.1.13.jar;C:\Users\Aleksey\.m2\repository\org\springframework\spring-beans\6.1.13\spring-beans-6.1.13.jar;C:\Users\Aleksey\.m2\repository\io\micrometer\micrometer-observation\1.13.4\micrometer-observation-1.13.4.jar;C:\Users\Aleksey\.m2\repository\io\micrometer\micrometer-commons\1.13.4\micrometer-commons-1.13.4.jar;C:\Users\Aleksey\.m2\repository\org\springframework\spring-webmvc\6.1.13\spring-webmvc-6.1.13.jar;C:\Users\Aleksey\.m2\repository\org\springframework\spring-aop\6.1.13\spring-aop-6.1.13.jar;C:\Users\Aleksey\.m2\repository\org\springframework\spring-context\6.1.13\spring-context-6.1.13.jar;C:\Users\Aleksey\.m2\repository\org\springframework\spring-expression\6.1.13\spring-expression-6.1.13.jar;C:\Users\Aleksey\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.2\jakarta.xml.bind-api-4.0.2.jar;C:\Users\Aleksey\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.3\jakarta.activation-api-2.1.3.jar;C:\Users\Aleksey\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Aleksey\.m2\repository\org\springframework\spring-core\6.1.13\spring-core-6.1.13.jar;C:\Users\Aleksey\.m2\repository\org\springframework\spring-jcl\6.1.13\spring-jcl-6.1.13.jar;C:\Users\Aleksey\.m2\repository\org\projectlombok\lombok\1.18.34\lombok-1.18.34.jar;C:\Users\Aleksey\.m2\repository\ru\mpei\SVreceiver\1.0\SVreceiver-1.0.jar;C:\Users\Aleksey\.m2\repository\org\apache\ftpserver\ftpserver-core\1.1.1\ftpserver-core-1.1.1.jar;C:\Users\Aleksey\.m2\repository\org\apache\ftpserver\ftplet-api\1.1.1\ftplet-api-1.1.1.jar;C:\Users\Aleksey\.m2\repository\org\apache\mina\mina-core\2.0.16\mina-core-2.0.16.jar;C:\Users\Aleksey\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Aleksey\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\Aleksey\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Aleksey\.m2\repository\org\snf4j\snf4j-core-slf4j\1.3.0\snf4j-core-slf4j-1.3.0.jar;C:\Users\Aleksey\.m2\repository\org\snf4j\snf4j-core\1.3.0\snf4j-core-1.3.0.jar;C:\Users\Aleksey\.m2\repository\org\slf4j\slf4j-simple\2.0.16\slf4j-simple-2.0.16.jar;C:\Users\Aleksey\.m2\repository\org\openmuc\jasn1-ber\1.3\jasn1-ber-1.3.jar;C:\Users\Aleksey\.m2\repository\org\pcap4j\pcap4j-core\2.0.0-alpha.6\pcap4j-core-2.0.0-alpha.6.jar;C:\Users\Aleksey\.m2\repository\net\java\dev\jna\jna\5.3.1\jna-5.3.1.jar;C:\Users\Aleksey\.m2\repository\commons-configuration\commons-configuration\1.6\commons-configuration-1.6.jar;C:\Users\Aleksey\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\Aleksey\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Users\Aleksey\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\Aleksey\.m2\repository\commons-digester\commons-digester\1.8\commons-digester-1.8.jar;C:\Users\Aleksey\.m2\repository\commons-beanutils\commons-beanutils-core\1.8.0\commons-beanutils-core-1.8.0.jar;C:\Users\Aleksey\.m2\repository\commons-beanutils\commons-beanutils\1.7.0\commons-beanutils-1.7.0.jar;C:\Users\Aleksey\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Aleksey\.m2\repository\org\hamcrest\hamcrest-core\2.2\hamcrest-core-2.2.jar;C:\Users\Aleksey\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Aleksey\.m2\repository\jfree\jfreechart\1.0.13\jfreechart-1.0.13.jar;C:\Users\Aleksey\.m2\repository\jfree\jcommon\1.0.16\jcommon-1.0.16.jar;C:\Users\Aleksey\.m2\repository\com\sun\activation\javax.activation\1.2.0\javax.activation-1.2.0.jar;C:\Users\Aleksey\.m2\repository\org\eclipse\paho\org.eclipse.paho.client.mqttv3\1.2.0\org.eclipse.paho.client.mqttv3-1.2.0.jar;C:\Users\Aleksey\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.2\jackson-core-2.17.2.jar;C:\Users\Aleksey\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.2\jackson-databind-2.17.2.jar;C:\Users\Aleksey\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.2\jackson-annotations-2.17.2.jar;C:\Users\Aleksey\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\Aleksey\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.5\jaxb-runtime-4.0.5.jar;C:\Users\Aleksey\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.5\jaxb-core-4.0.5.jar;C:\Users\Aleksey\.m2\repository\org\glassfish\jaxb\txw2\4.0.5\txw2-4.0.5.jar;C:\Users\Aleksey\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.2\istack-commons-runtime-4.1.2.jar;C:\Users\Aleksey\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\Aleksey\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\Aleksey\.m2\repository\com\sun\xml\bind\jaxb-core\4.0.3\jaxb-core-4.0.3.jar;C:\Users\Aleksey\.m2\repository\org\eclipse\angus\angus-activation\2.0.2\angus-activation-2.0.2.jar;C:\Users\Aleksey\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.4\jaxb-impl-2.3.4.jar;C:\Users\Aleksey\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar ru.mpei.relayprotection.RelayProtectionApplication
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@516be40f]
+SLF4J(W): Found provider [org.slf4j.simple.SimpleServiceProvider@3c0a50da]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [ch.qos.logback.classic.spi.LogbackServiceProvider@516be40f]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.4)
+
+2024-11-30T13:15:29.234+03:00  INFO 28532 --- [RelayProtection] [           main] r.m.r.RelayProtectionApplication         : Starting RelayProtectionApplication using Java 20.0.2.1 with PID 28532 (C:\Users\Aleksey\Desktop\Table\Work\BRICS\rz\protection\target\classes started by Aleksey in C:\Users\Aleksey\Desktop\Table\Work\BRICS\rz\protection)
+2024-11-30T13:15:29.238+03:00  INFO 28532 --- [RelayProtection] [           main] r.m.r.RelayProtectionApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-11-30T13:15:30.145+03:00  INFO 28532 --- [RelayProtection] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-11-30T13:15:30.160+03:00  INFO 28532 --- [RelayProtection] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-30T13:15:30.160+03:00  INFO 28532 --- [RelayProtection] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-30T13:15:30.213+03:00  INFO 28532 --- [RelayProtection] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-30T13:15:30.214+03:00  INFO 28532 --- [RelayProtection] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 904 ms
+2024-11-30T13:15:30.470+03:00  INFO 28532 --- [RelayProtection] [           main] org.pcap4j.core.NativeMappings           : Pcap4J successfully loaded a native pcap library: Npcap version 1.78, based on libpcap version 1.10.4
+2024-11-30T13:15:32.222+03:00  INFO 28532 --- [RelayProtection] [           main] org.pcap4j.util.PropertiesLoader         : [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.inet, use default value: 2
+2024-11-30T13:15:32.222+03:00  INFO 28532 --- [RelayProtection] [           main] org.pcap4j.util.PropertiesLoader         : [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.inet6, use default value: 23
+2024-11-30T13:15:32.222+03:00  INFO 28532 --- [RelayProtection] [           main] org.pcap4j.util.PropertiesLoader         : [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.packet, use default value: 17
+2024-11-30T13:15:32.222+03:00  INFO 28532 --- [RelayProtection] [           main] org.pcap4j.util.PropertiesLoader         : [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.link, use default value: 18
+2024-11-30T13:15:32.239+03:00  INFO 28532 --- [RelayProtection] [           main] org.pcap4j.core.Pcaps                    : 11 NIF(s) found.
+2024-11-30T13:15:32.244+03:00  INFO 28532 --- [RelayProtection] [           main] org.pcap4j.util.PropertiesLoader         : [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.dlt.raw, use default value: 12
+2024-11-30T13:15:32.245+03:00  INFO 28532 --- [RelayProtection] [       Thread-1] r.m.relayprotection.model.sv.SvReceiver  : Starting packet capture
+2024-11-30T13:15:32.246+03:00  INFO 28532 --- [RelayProtection] [       Thread-1] org.pcap4j.core.PcapHandle               : Starting loop.
+2024-11-30T13:15:32.591+03:00  INFO 28532 --- [RelayProtection] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-11-30T13:15:32.597+03:00  INFO 28532 --- [RelayProtection] [           main] r.m.r.RelayProtectionApplication         : Started RelayProtectionApplication in 3.796 seconds (process running for 4.387)
+2024-11-30T13:16:20.330+03:00  INFO 28532 --- [RelayProtection] [nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-30T13:16:20.330+03:00  INFO 28532 --- [RelayProtection] [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-30T13:16:20.331+03:00  INFO 28532 --- [RelayProtection] [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-11-30T13:16:20.386+03:00  INFO 28532 --- [RelayProtection] [nio-8081-exec-1] r.m.r.model.protection.LineProtection    : Start protection on W6
+often crossings detected
+often crossings detected
+often crossings detected
+often crossings detected
+often crossings detected
+often crossings detected
+often crossings detected
+often crossings detected
+often crossings detected
+often crossings detected
+often crossings detected
+often crossings detected
+often crossings detected
+often crossings detected
+2024-11-30T13:16:22.743+03:00  WARN 28532 --- [RelayProtection] [       Thread-1] r.m.r.m.p.s.StairActionManager           : Phase B damaged. 
+2024-11-30T13:16:22.743+03:00  INFO 28532 --- [RelayProtection] [       Thread-1] r.m.r.model.protection.LineProtection    : Stop protection on W6
+2024-11-30T13:16:40.647+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:16:40.647+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:16:43.159+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:16:43.159+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:16:45.661+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:16:45.661+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:16:48.168+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:16:48.168+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:16:50.683+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:16:50.683+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:16:53.197+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:16:53.197+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:16:55.701+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:16:55.701+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:16:58.213+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:16:58.213+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:17:00.719+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:17:00.719+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:17:03.234+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:17:03.234+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:17:05.744+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:17:05.744+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:17:08.245+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:17:08.245+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:17:10.750+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:17:10.750+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:17:13.264+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:17:13.264+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:17:15.776+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:17:15.776+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:17:18.287+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:17:18.287+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:17:20.799+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:17:20.799+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:17:23.305+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:17:23.305+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:17:25.813+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:17:25.813+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:17:28.316+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:17:28.316+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:17:30.824+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:17:30.824+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:17:33.337+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:17:33.337+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:17:35.843+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:17:35.843+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:17:38.350+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:17:38.350+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:17:40.859+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:17:40.859+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:17:43.365+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:17:43.365+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:17:45.876+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:17:45.876+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:17:48.382+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:17:48.382+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:17:50.897+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:17:50.897+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:17:53.409+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:17:53.409+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:17:55.917+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:17:55.917+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:17:58.431+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:17:58.431+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:18:00.946+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:18:00.946+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:18:03.460+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:18:03.460+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:18:05.969+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:18:05.969+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:18:08.475+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:18:08.475+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:18:10.984+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:18:10.984+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:18:13.495+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:18:13.495+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:18:15.998+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:18:15.998+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:18:18.508+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:18:18.508+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:18:21.014+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:18:21.014+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:18:23.521+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:18:23.521+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:18:26.031+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:18:26.031+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:18:28.545+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:18:28.545+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:18:31.052+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:18:31.052+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:18:33.559+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:18:33.559+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:18:36.068+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:18:36.068+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:18:38.572+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:18:38.572+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:18:41.073+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:18:41.073+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:18:43.575+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:18:43.575+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:18:46.080+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:18:46.080+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:18:48.581+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:18:48.581+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:18:51.088+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:18:51.088+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:18:53.595+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:18:53.595+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:18:56.108+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:18:56.108+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:18:58.618+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:18:58.618+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:19:01.127+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:19:01.127+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:19:03.642+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:19:03.642+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:19:06.149+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:19:06.149+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
+2024-11-30T13:19:08.663+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
+2024-11-30T13:19:08.663+03:00  WARN 28532 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual

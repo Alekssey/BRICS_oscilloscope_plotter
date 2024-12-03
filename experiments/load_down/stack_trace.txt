@@ -38,7 +38,7 @@ SLF4J(I): Actual provider is of type [ch.qos.logback.classic.spi.LogbackServiceP
 2024-11-29T20:54:53.123+03:00  INFO 11408 --- [RelayProtection] [nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2024-11-29T20:54:53.123+03:00  INFO 11408 --- [RelayProtection] [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2024-11-29T20:54:53.124+03:00  INFO 11408 --- [RelayProtection] [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2024-11-29T20:54:53.199+03:00  INFO 11408 --- [RelayProtection] [nio-8081-exec-1] r.m.r.model.protection.LineProtection    : Start protection on W1
+2024-11-29T20:54:53.199+03:00  INFO 11408 --- [RelayProtection] [nio-8081-exec-1] r.m.r.model.protection.LineProtection    : Start protection on W6
 2024-11-29T20:55:29.222+03:00  WARN 11408 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
 2024-11-29T20:55:29.223+03:00  WARN 11408 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
 2024-11-29T20:55:31.723+03:00  WARN 11408 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual

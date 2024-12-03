@@ -8,66 +8,26 @@
 
  :: Spring Boot ::                (v3.3.4)
 
-2024-11-29T20:12:58.338+03:00  INFO 3524 --- [RelayProtection] [           main] r.m.r.RelayProtectionApplication         : Starting RelayProtectionApplication using Java 17.0.12 with PID 3524 (C:\Users\Aleksey\Desktop\Table\work\BRICS\rz\RelayProtection\target\classes started by Aleksey in C:\Users\Aleksey\Desktop\Table\work\BRICS\rz\RelayProtection)
-2024-11-29T20:12:58.341+03:00  INFO 3524 --- [RelayProtection] [           main] r.m.r.RelayProtectionApplication         : No active profile set, falling back to 1 default profile: "default"
-2024-11-29T20:12:59.550+03:00  INFO 3524 --- [RelayProtection] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
-2024-11-29T20:12:59.567+03:00  INFO 3524 --- [RelayProtection] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-11-29T20:12:59.568+03:00  INFO 3524 --- [RelayProtection] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
-2024-11-29T20:12:59.638+03:00  INFO 3524 --- [RelayProtection] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-11-29T20:12:59.638+03:00  INFO 3524 --- [RelayProtection] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1224 ms
-2024-11-29T20:12:59.902+03:00  WARN 3524 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:01 is not actual
-2024-11-29T20:12:59.904+03:00  WARN 3524 --- [RelayProtection] [pool-2-thread-1] r.m.relayprotection.model.sv.SvReceiver  : SV data for mac 01:0c:cd:04:00:02 is not actual
-2024-11-29T20:13:00.129+03:00  INFO 3524 --- [RelayProtection] [           main] org.pcap4j.core.NativeMappings           : Pcap4J successfully loaded a native pcap library: Npcap version 1.71, based on libpcap version 1.10.2-PRE-GIT
-2024-11-29T20:13:00.166+03:00  INFO 3524 --- [RelayProtection] [           main] org.pcap4j.util.PropertiesLoader         : [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.inet, use default value: 2
-2024-11-29T20:13:00.166+03:00  INFO 3524 --- [RelayProtection] [           main] org.pcap4j.util.PropertiesLoader         : [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.inet6, use default value: 23
-2024-11-29T20:13:00.166+03:00  INFO 3524 --- [RelayProtection] [           main] org.pcap4j.util.PropertiesLoader         : [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.packet, use default value: 17
-2024-11-29T20:13:00.166+03:00  INFO 3524 --- [RelayProtection] [           main] org.pcap4j.util.PropertiesLoader         : [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.link, use default value: 18
-2024-11-29T20:13:00.180+03:00  INFO 3524 --- [RelayProtection] [           main] org.pcap4j.core.Pcaps                    : 10 NIF(s) found.
-2024-11-29T20:13:00.185+03:00  INFO 3524 --- [RelayProtection] [           main] org.pcap4j.util.PropertiesLoader         : [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.dlt.raw, use default value: 12
-2024-11-29T20:13:00.193+03:00  INFO 3524 --- [RelayProtection] [       Thread-1] r.m.relayprotection.model.sv.SvReceiver  : Starting packet capture
-2024-11-29T20:13:00.194+03:00  INFO 3524 --- [RelayProtection] [       Thread-1] org.pcap4j.core.PcapHandle               : Starting loop.
-2024-11-29T20:13:00.777+03:00  INFO 3524 --- [RelayProtection] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
-2024-11-29T20:13:00.787+03:00  INFO 3524 --- [RelayProtection] [           main] r.m.r.RelayProtectionApplication         : Started RelayProtectionApplication in 2.955 seconds (process running for 3.653)
-2024-11-29T20:13:13.642+03:00  INFO 3524 --- [RelayProtection] [nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-11-29T20:13:13.642+03:00  INFO 3524 --- [RelayProtection] [nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-11-29T20:13:13.643+03:00  INFO 3524 --- [RelayProtection] [nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2024-11-29T20:13:13.716+03:00  INFO 3524 --- [RelayProtection] [nio-8081-exec-2] r.m.r.model.protection.LineProtection    : Start protection on W1
-often crossings detected
-often crossings detected
-often crossings detected
-often crossings detected
-often crossings detected
-often crossings detected
-often crossings detected
-often crossings detected
-often crossings detected
-often crossings detected
-often crossings detected
-often crossings detected
-often crossings detected
-often crossings detected
-often crossings detected
-often crossings detected
-often crossings detected
-often crossings detected
-often crossings detected
-often crossings detected
-often crossings detected
-often crossings detected
-often crossings detected
-often crossings detected
-often crossings detected
-often crossings detected
-often crossings detected
-often crossings detected
-often crossings detected
-often crossings detected
-often crossings detected
-often crossings detected
-often crossings detected
-often crossings detected
-often crossings detected
-often crossings detected
-often crossings detected
-often crossings detected
-often crossings detected
+2024-11-30T12:16:59.651+03:00  INFO 8792 --- [RelayProtection] [           main] r.m.r.RelayProtectionApplication         : Starting RelayProtectionApplication using Java 20.0.2.1 with PID 8792 (C:\Users\Aleksey\Desktop\Table\Work\BRICS\rz\protection\target\classes started by Aleksey in C:\Users\Aleksey\Desktop\Table\Work\BRICS\rz\protection)
+2024-11-30T12:16:59.654+03:00  INFO 8792 --- [RelayProtection] [           main] r.m.r.RelayProtectionApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-11-30T12:17:00.611+03:00  INFO 8792 --- [RelayProtection] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-11-30T12:17:00.625+03:00  INFO 8792 --- [RelayProtection] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-30T12:17:00.626+03:00  INFO 8792 --- [RelayProtection] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-30T12:17:00.686+03:00  INFO 8792 --- [RelayProtection] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-30T12:17:00.687+03:00  INFO 8792 --- [RelayProtection] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 964 ms
+2024-11-30T12:17:00.949+03:00  INFO 8792 --- [RelayProtection] [           main] org.pcap4j.core.NativeMappings           : Pcap4J successfully loaded a native pcap library: Npcap version 1.78, based on libpcap version 1.10.4
+2024-11-30T12:17:02.664+03:00  WARN 8792 --- [RelayProtection] [           main] org.pcap4j.core.Pcaps                    : Error calling PacketRequest: Couldn't get error message for error (3758096571)
+2024-11-30T12:17:02.683+03:00  INFO 8792 --- [RelayProtection] [           main] org.pcap4j.util.PropertiesLoader         : [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.inet, use default value: 2
+2024-11-30T12:17:02.683+03:00  INFO 8792 --- [RelayProtection] [           main] org.pcap4j.util.PropertiesLoader         : [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.inet6, use default value: 23
+2024-11-30T12:17:02.683+03:00  INFO 8792 --- [RelayProtection] [           main] org.pcap4j.util.PropertiesLoader         : [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.packet, use default value: 17
+2024-11-30T12:17:02.683+03:00  INFO 8792 --- [RelayProtection] [           main] org.pcap4j.util.PropertiesLoader         : [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.link, use default value: 18
+2024-11-30T12:17:02.698+03:00  INFO 8792 --- [RelayProtection] [           main] org.pcap4j.core.Pcaps                    : 12 NIF(s) found.
+2024-11-30T12:17:02.702+03:00  INFO 8792 --- [RelayProtection] [           main] org.pcap4j.util.PropertiesLoader         : [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.dlt.raw, use default value: 12
+2024-11-30T12:17:02.704+03:00  INFO 8792 --- [RelayProtection] [       Thread-1] r.m.relayprotection.model.sv.SvReceiver  : Starting packet capture
+2024-11-30T12:17:02.704+03:00  INFO 8792 --- [RelayProtection] [       Thread-1] org.pcap4j.core.PcapHandle               : Starting loop.
+2024-11-30T12:17:03.062+03:00  INFO 8792 --- [RelayProtection] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-11-30T12:17:03.072+03:00  INFO 8792 --- [RelayProtection] [           main] r.m.r.RelayProtectionApplication         : Started RelayProtectionApplication in 4.005 seconds (process running for 4.818)
+2024-11-30T12:17:58.050+03:00  INFO 8792 --- [RelayProtection] [nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-30T12:17:58.050+03:00  INFO 8792 --- [RelayProtection] [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-30T12:17:58.051+03:00  INFO 8792 --- [RelayProtection] [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-11-30T12:17:58.114+03:00  INFO 8792 --- [RelayProtection] [nio-8081-exec-1] r.m.r.model.protection.LineProtection    : Start protection on W6
